@@ -1,0 +1,101 @@
+{
+   "users":[{
+"id": 1,
+ "organization":"Lendsqr",
+ "username":"Adedeji",
+ "email":"adedeji@lendsqr.com",
+ "phone":"08121915544",
+ "date":"October 9, 2012 10.00AM",
+ "status":"Inactive"
+},
+
+{
+    "id": 2,
+    "organization":"Lendstar",
+    "username":"Grace",
+    "email":"grace@lendstar.com",
+    "phone":"09022667788",
+    "date":"May 29, 2020 10.00AM",
+    "status":"Pending"
+   },
+   
+   {
+    "id": 3,
+    "organization":"Pensure",
+    "username":"Damilola",
+    "email":"Damilola@pensure.com",
+    "phone":"08151915544",
+    "date":"July 5, 2022 10.00AM",
+    "status":"Pending"
+   },
+   
+   {
+    "id": 4,
+    "organization":"Leadway",
+    "username":"Taiwo",
+    "email":"Taiwo@lendway.com",
+    "phone":"09021915544",
+    "date":"October 9, 2020 10.00AM",
+    "status":"Blacklisted"
+   },
+   
+   {
+    "id": 5,
+    "organization":"Lapo",
+    "username":"Emeka",
+    "email":"Emeka@lapo.com",
+    "phone":"09121815544",
+    "date":"Feburary 19, 2019 10.00AM",
+    "status":"Blacklisted"
+   },
+   
+   {
+    "id": 6,
+    "organization":"Gromming",
+    "username":"Mary",
+    "email":"Mary@gromming.com",
+    "phone":"07021915544",
+    "date":"October 26, 2020 10.00AM",
+    "status":"Active"
+   },
+   
+   {
+    "id": 7,
+    "organization":"Crusader",
+    "username":"Joel",
+    "email":"Joel@crusader.com",
+    "phone":"09041915544",
+    "date":"September 30, 2023 10.00AM",
+    "status":"Active"
+   },
+   
+   {
+    "id": 8,
+    "organization":"Fort",
+    "username":"Otunba",
+    "email":"Otunba@fort.com",
+    "phone":"07021915544",
+    "date":"June 9, 2023 10.00AM",
+    "status":"Pending"
+   },
+   
+   {
+    "id": 9,
+    "organization":"Bet9ja",
+    "username":"Chioma",
+    "email":"Chioma@bet9ja.com",
+    "phone":"08121946744",
+    "date":"August 17, 2022 10.00AM",
+    "status":"Inactive"
+   },
+   
+   {
+    "id": 10,
+    "organization":"Nairabet",
+    "username":"Amadi",
+    "email":"Akpan@nairabet.com",
+    "phone":"08121966644",
+    "date":"October 9, 2021 10.00AM",
+    "status":"Blacklisted"
+   }
+   ]}

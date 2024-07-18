@@ -1,0 +1,272 @@
+
+.dashboardlogo{
+    display: flex;
+    width: 80%;
+    padding: 10px 30px;
+    background: #fff;
+    margin: auto;
+   border: 2px solid rgb(245, 240, 240);
+   
+  
+}
+.dashboardinput input{
+    display: flex;
+    position: relative;
+    margin-left: 15rem;
+    width: 80%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 8px;
+    border: 2px solid #57a0d3;
+    outline-color: #57a0d3;
+    border-bottom-right-radius:   20px;
+   border-top-right-radius:  20px;
+}
+.dashboardinput .btn{
+    position: relative;
+    margin-left: 129.3%;
+    width: 4.9%;
+    padding: 7.5px 20px;
+   border-bottom-right-radius:   20px;
+   border-top-right-radius:  20px;
+   bottom: 38px;
+   background: #57a0d3;
+    outline: 2px;
+    
+}
+.btn button{
+    width: 30px;
+    background: #fff;
+    border: none;
+    outline: none;
+    margin-right: 50%;
+    position: relative;
+    top: 15%;
+    background: transparent;
+    color: #fff;
+}
+
+ .a{
+    margin-left: 150%;
+    position: relative;
+    bottom: 4rem;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bell{
+    display: flex;
+    position: relative;
+    margin-left: 170%;
+  
+}
+
+.b{
+    position: relative;
+    bottom: 5.5rem;
+    margin-right: 50px;
+    color: #1338be;
+    width: 50%;
+    
+    
+    
+}
+.u{
+    position: relative;
+    bottom: 5.5rem;
+    margin-right: 50px;
+    color: #1338be;
+    width: 50%;
+}
+.span{
+    position: relative;
+    bottom: 5.5rem;
+    margin-right: 50%;
+    color: #1338be;
+    width: 10%;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    
+    
+}
+
+//Side bar css
+
+.sidebar{
+    position: absolute;
+    width: 240px;
+    height: 150vh;
+    background-color: #fff;
+    top: 9.6rem;
+    margin-left: 120px;
+    border: 2px solid rgb(245, 240, 240);
+    
+
+}
+
+.bankoutlined{
+    position: relative;
+    top: 1.3rem;
+}
+
+.downsquare{
+    position: relative;
+    top: 1.3rem;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    row-gap: 2px;
+}
+.heading .heading1{
+    position: relative;
+    gap: 20px;
+}
+.heading span{
+    margin-left: 5px;
+}
+
+
+.section2{
+    display: flex;
+    flex-direction: row;
+    line-height: 5rem;
+    margin-left: 1.3rem;
+   
+}
+.section2 span{
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    line-height: 2rem;
+   
+}
+.section3 h4{
+    align-items: center;
+    justify-items: center;
+}
+
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    line-height: 2rem;
+}
+
+.section4 h4{
+    align-items: center;
+    justify-items: center;
+}
+
+.section5{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    line-height: 2rem;
+}
+
+
+
+
+.users{
+    display: flex;
+    flex-direction: row;
+   position: relative;
+   left: 12rem;
+   bottom: 0.5rem;
+    width: 75%;
+}
+.users div h1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 12rem;
+    color: #0a1172;
+}
+
+.subuser1{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 25vh;
+    padding: 2px;
+    background: #fff;
+    margin-top: 5rem;
+    font-size: 20px;
+    margin-right: 1rem;
+    margin-bottom: 10rem;
+    color: #0a1172;
+    border: 1px solid rgb(196, 187, 187);
+    align-items: center;
+    
+}
+
+.subuser2{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 25vh;
+    padding: 2px;
+    background: #fff;
+    margin-top: 5rem;
+    font-size: 20px;
+    margin-right: 1rem;
+    color: #0a1172;
+    border: 1px solid rgb(196, 187, 187);
+    align-items: center;
+}
+
+.subuser3{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 25vh;
+    padding: 2px;
+    background: #fff;
+    margin-top: 5rem;
+    font-size: 20px;
+    margin-right: 1rem;
+    color: #0a1172;
+    border: 1px solid rgb(196, 187, 187);
+    align-items: center;
+}
+
+.subuser4{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 25vh;
+    padding: 2px;
+    background:#fff;
+    margin-top: 5rem;
+    font-size: 20px;
+    margin-right: 2rem;
+    color: #0a1172;
+    border: 1px solid rgb(196, 187, 187);
+    align-items: center;
+}
+
+tr th{
+    text-align: center;
+    padding-left: 35px;
+}
+
+tr td{
+    position: relative;
+    left: 84rem;
+    top: 1rem;
+}
+
+    
