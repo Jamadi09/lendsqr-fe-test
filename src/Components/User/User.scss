@@ -14,9 +14,10 @@
     display: flex;
     position: relative;
     margin-left: 12rem;
-    width: 74%;
-    padding: 10px 20px;
-    border-radius: 10px;
+    width: 52%;
+    padding: 9.8px 24px;
+    border-top-left-radius: 400px;
+    border-bottom-left-radius: 400px;
     margin-top: 8px;
     border: 2px solid #57a0d3;
     outline-color: #57a0d3;
@@ -27,7 +28,7 @@
     position: relative;
     margin-left: 132%;
     width: 4%;
-    padding: 10px 20px;
+    padding: 8px 20px;
    border-bottom-right-radius:   20px;
    border-top-right-radius:  20px;
    bottom: 38px;
