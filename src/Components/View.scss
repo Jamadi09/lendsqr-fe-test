@@ -1,109 +1,120 @@
 .fullname{
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    right: 231rem;
-    top: 1rem;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  right: 315rem;
+  font-size: small;
+  
+  
 }
-
 .phonenumber{
     display: flex;
-    flex-direction: row;
-    position: absolute;
-    right: 222rem;
-    bottom: 20rem;
-    
+  flex-direction: row;
+  position: relative;
+  right: 301.5rem;
+  font-size: small;
+  bottom: 1rem;
 }
 
 .address{
     display: flex;
     flex-direction: row;
     position: relative;
-    right: 205rem;
-    bottom: 0.4rem; 
+    right: 288rem;
+    font-size: small;
+   bottom: 2rem;
 }
 
 .bvn{
     display: flex;
     flex-direction: row;
     position: relative;
-    right: 189rem;
-    bottom: 1.8rem;  
+    right: 273rem;
+    font-size: small;
+    bottom: 3rem;
 }
-
 .gender{
     display: flex;
     flex-direction: row;
     position: relative;
-    right: 175rem;
-    bottom: 3rem;
+    right: 259rem;
+    font-size: small;
+    bottom: 4rem;
 }
 .maritalstatus{
     display: flex;
     flex-direction: row;
     position: relative;
-    right: 161rem;
-    bottom: 4rem;
+    right: 245rem;
+    font-size: small;
+    bottom: 5rem;
 }
+
 .children{
     display: flex;
     flex-direction: row;
     position: relative;
-    right: 146rem;
-    bottom: 5.2rem; 
+    right: 230rem;
+    font-size: small;
+    bottom: 6rem;
 }
+
 .residence{
     display: flex;
     flex-direction: row;
     position: relative;
-    right: 132rem;
-    bottom: 6.9rem;
+    right: 216rem;
+    font-size: small;
+    bottom: 7rem;
 }
-
 .education{
     display: flex;
     flex-direction: row;
     position: relative;
-    right: 117rem;
-    bottom: 8.4rem;
+    right: 200rem;
+    font-size: small;
+    bottom: 8rem;
 }
-
 .status{
     display: flex;
     flex-direction: row;
     position: relative;
-    right: 102rem;
-    bottom: 9.5rem;
+    right: 186rem;
+    font-size: small;
+    bottom: 9rem;
 }
-
 .employment{
     display: flex;
     flex-direction: row;
     position: relative;
-    right: 86rem;
-    bottom: 10.6rem;
+    right: 172rem;
+    font-size: small;
+    bottom: 10rem;
 }
 
 .duration{
     display: flex;
     flex-direction: row;
     position: relative;
-    right: 72rem;
-    bottom: 11.9rem;
+    right: 155rem;
+    font-size: small;
+    bottom: 11rem;
 }
 .officeemail{
     display: flex;
     flex-direction: row;
     position: relative;
-    right: 59rem;
-    bottom: 13rem;
+    right: 142rem;
+    font-size: small;
+    bottom: 12rem;
 }
 .monthlyincome{
     display: flex;
     flex-direction: row;
     position: relative;
-    right: 41rem;
-    bottom: 14rem;
+    right: 125rem;
+    font-size: small;
+    bottom: 13rem;
 }
 
 .loanrepayment{
@@ -111,70 +122,81 @@
     flex-direction: row;
     position: relative;
     right: 25rem;
-    bottom: 15.4rem;
+    font-size: small;
+    bottom: 13rem;
 }
 .twitter{
     display: flex;
     flex-direction: row;
     position: relative;
-    right: 11rem;
-    bottom: 16.7rem;
+    right: 95rem;
+    font-size: small;
+    bottom: 15rem;
 }
+
 .facebook{
     display: flex;
     flex-direction: row;
-    position: absolute;
-    left: 2rem;
-    bottom: 18rem;
+    position: relative;
+    right: 80.9rem;
+    font-size: small;
+    bottom: 15.9rem;
 }
+
 .instagram{
     display: flex;
     flex-direction: row;
-    position: absolute;
-    left: 18rem;
-    bottom: 18rem;
+    position: relative;
+    right: 66rem;
+    font-size: small;
+    bottom: 16.9rem;
 }
-
 .linkedin{
     display: flex;
     flex-direction: row;
-    position: absolute;
-    left: 32rem;
-    bottom: 18rem;
+    position: relative;
+    right: 51rem;
+    font-size: small;
+    bottom: 17.9rem;
 }
 .name{
     display: flex;
     flex-direction: row;
-    position: absolute;
-    left: 48rem;
-    bottom: 18rem;
+    position: relative;
+    right: 36rem;
+    font-size: small;
+    bottom: 18.8rem;
 }
 .number{
     display: flex;
     flex-direction: row;
-    position: absolute;
-    left: 61rem;
-    bottom: 18rem;
+    position: relative;
+    right: 22rem;
+    font-size: small;
+    bottom: 19.8rem;
 }
 .email{
     display: flex;
     flex-direction: row;
-    position: absolute;
-    left: 73rem;
-    bottom: 18rem;
+    position: relative;
+    right: 8rem;
+    font-size: small;
+    bottom: 22.6rem;
 }
-
 .relationship{
     display: flex;
     flex-direction: row;
-    position: absolute;
-    left: 92rem;
-    bottom: 18rem;
+    position: relative;
+    left: 8rem;
+    font-size: small;
+    bottom: 24rem;
 }
+
 .delete{
     display: flex;
     flex-direction: row;
-    position: absolute;
-    left: 108rem;
-    bottom: 18rem;
+    position: relative;
+    left: 23.9rem;
+    font-size: small;
+    bottom: 25.5rem;
 }

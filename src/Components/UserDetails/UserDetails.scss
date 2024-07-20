@@ -1,10 +1,10 @@
 
 .dashboardlogo{
     display: flex;
-    width: 80%;
+    width: 85%;
     padding: 10px 30px;
     background: #fff;
-    margin: auto;
+    margin-left: 7.5rem;
    border: 2px solid rgb(245, 240, 240);
    
   
@@ -98,7 +98,9 @@
 
 .sidebar{
    position: absolute;
-   top: 10.6rem; 
+   top:  170px;
+   float: left;
+   
 }
 
 .heading{
@@ -199,7 +201,7 @@
 
 .blacklist{
     position: relative;
-    width: 10%;
+    width: 19%;
     display: flex;
     flex-direction: row;
     top: 3rem;
@@ -208,7 +210,7 @@
     justify-content: center;
     color: red;
     border-radius: 7px;
-    left: 28rem;
+    left: 10rem;
     border: 2px solid red;
     
     
@@ -217,7 +219,7 @@
 
 .activate{
     position: relative;
-    width: 10%;
+    width: 19%;
     display: flex;
     flex-direction: row;
     top: 3rem;
@@ -226,7 +228,7 @@
     justify-content: center;
     color: #89cfef;
     border-radius: 7px;
-    left: 30rem;
+    left: 12rem;
     border: 2px solid #89cfef;
 }
 
@@ -323,9 +325,9 @@
     display: flex;
     flex-direction: row;
     width: 180px;
-    height: 250vh;
-    top: 15rem;
-    left: 23rem;
+    height: 300vh;
+    top: 300px;
+    left: 26rem;
     padding: 20px 80px;
     background: rgb(179, 174, 174);
    
@@ -369,11 +371,11 @@ hr{
 .viewcontainer{
     position: relative;
     background: rgb(190, 185, 185);
-    flex: 0 0 550%;
-    left: 1rem;
+    flex: 0 0 400%;
+    
     border: 1px solid gray;
-    right: 2rem;
-     height: 3%;
+    left: 2rem;
+     height: 100%;
 }
 .table{
     display: flex;
@@ -419,5 +421,5 @@ hr{
     width: 5%;
     border: none;
     border-radius: 10px;
-    margin: auto;
+    margin-top: 12rem;
 }

@@ -9,31 +9,31 @@ export interface IAppProps {
 export const View = ({books, deleteBook}) => {
   return books.map(book=>(
     <tr key={book.fullname}>
-        <td className='fullname'>{book.fullname}</td>
-        <td className='phonenumber'>{book.phonenumber}</td>
-        <td className='address'>{book.address}</td>
-        <td className='bvn'>{book.bvn}</td>
-        <td className='gender'>{book.gender}</td>
-        <td className='maritalstatus'>{book.maritalstatus}</td>
-        <td className='children'>{book.Children}</td>
-        <td className='residence'>{book.residence}</td>
-        <td className='education'>{book.education}</td>
-        <td className='status'>{book.employmentstatus}</td>
-        <td className='employment'>{book.sectorofemployment}</td>
-        <td className='duration'>{book.duration}</td>
-        <td className='officeemail'>{book.officeemail}</td>
-        <td className='monthlyincome'>{book.monthlyincome}</td>
-        <td className='loanrepayment'>{book.loanrepayment}</td>
-        <td className='twitter'>{book.twitter}</td>
-        <td className='facebook'>{book.facebook}</td>
-        <td className='instagram'>{book.instagram}</td>
-        <td className='linkedin'>{book.linkedin}</td>
-        <td className='name'>{book.name}</td>
-        <td className='number'>{book.number}</td>
-        <td className='address'>{book.address}</td>
-        <td className='email'>{book.email}</td>
-        <td className='relationship'>{book.relationship}</td>
-        <td className='delete' onClick={()=>deleteBook(book.fullname)}><FontAwesomeIcon icon={faTrash} /></td>
+        <div className='fullname'><td>{book.fullname}</td></div>
+        <div className='phonenumber'><td>{book.phonenumber}</td></div>
+        <div className='address'><td >{book.address}</td></div>
+        <div  className='bvn'><td>{book.bvn}</td></div>
+        <div  className='gender'><td>{book.gender}</td></div>
+        <div className='maritalstatus'><td >{book.maritalstatus}</td></div>
+        <div className='children'><td >{book.Children}</td></div>
+        <div className='residence'><td >{book.residence}</td></div>
+       <div className='education'> <td >{book.education}</td></div>
+        <div className='status'><td >{book.employmentstatus}</td></div>
+        <div  className='employment'><td>{book.sectorofemployment}</td></div>
+        <div className='duration'><td >{book.duration}</td></div>
+        <div className='officeemail'><td >{book.officeemail}</td></div>
+       <div className='monthlyincome'> <td>{book.monthlyincome}</td></div>
+        <div className='loanrepayment'><>{book.loanrepayment}</></div>
+        <div  className='twitter'><td>{book.twitter}</td></div>
+        <div className='facebook'><td >{book.facebook}</td></div>
+        <div className='instagram'><td >{book.instagram}</td></div>
+        <div className='linkedin'><td >{book.linkedin}</td></div>
+         <div className='name'><td >{book.name}</td></div>
+        <div  className='number'><td>{book.number}</td></div>
+        <div className='address'><td >{book.address}</td></div>
+        <div  className='email'><td>{book.email}</td></div>
+        <div className='relationship'><td>{book.relationship}</td></div>
+       <div  className='delete' > <td onClick={()=>deleteBook(book.fullname)}><FontAwesomeIcon icon={faTrash} /></td></div>
 
 
         

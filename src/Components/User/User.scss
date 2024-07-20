@@ -1,11 +1,12 @@
 
 .dashboardlogo{
     display: flex;
-    width: 80%;
+    width: 85%;
     padding: 10px 30px;
     background: #fff;
-    margin: auto;
+    margin-left: 7.5rem;
    border: 2px solid rgb(245, 240, 240);
+   
    
   
 }
@@ -98,13 +99,8 @@
 
 .sidebar{
     position: absolute;
-    width: 240px;
-    height: 150vh;
-    background-color: #fff;
-    top: 9.6rem;
-    margin-left: 120px;
-    border: 2px solid rgb(245, 240, 240);
-    
+   top:  170px;
+   float: left;
 
 }
 
