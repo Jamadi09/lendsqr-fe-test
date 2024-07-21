@@ -37,7 +37,7 @@ export function User (props: post) {
   const [column, setColumn] = useState<any[]>([])
   const [record, setRecord] = useState<any[]>([])
   useEffect(()=>{
-    fetch("https://run.mocky.io/v3/d7ba70d4-63fb-441b-b62f-46f0cab5820c")
+    fetch("http://localhost:3000/Data.json")
     .then(res => res.json())
     .then(data => {
       setColumn(Object.keys(data.users[0]))
