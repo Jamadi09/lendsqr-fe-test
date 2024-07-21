@@ -14,11 +14,11 @@
     position: relative;
     margin-left: 12rem;
     width: 58%;
-    padding: 12px 22px;
+    padding: 13px 22px;
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
     margin-top: 12px;
-    
+    border: 1px solid #57a0d3;
     outline-color: #57a0d3;
     border-bottom-right-radius:   2px;
     border-top-right-radius:  2px;
@@ -26,14 +26,14 @@
 }
 .dashboardinput .btn{
     position: relative;
-    margin-left: 111%;
+    margin-left: 103.2%;
     width: 4%;
-    padding: 10.8px 20px;
-   border-bottom-right-radius:   7px;
-   border-top-right-radius:  7px;
+    padding: 10px 20px;
+   border-bottom-right-radius:   1px;
+   border-top-right-radius:  1px;
    bottom: 58.5px;
    background: #57a0d3;
-    outline: 2px;
+    
     
 }
 .btn button{

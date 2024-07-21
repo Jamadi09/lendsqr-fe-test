@@ -89,7 +89,7 @@ export function User (props: post) {
 
     <div className='subuser4'>
     <FontAwesomeIcon icon={faLayerGroup} />
-    <h5>USERS WITH SAVINGS</h5>
+    <h5>USERS SAVINGS</h5>
     <h5>102,453</h5>
     </div>
 
