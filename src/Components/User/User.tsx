@@ -37,7 +37,7 @@ export function User (props: post) {
   const [column, setColumn] = useState<any[]>([])
   const [record, setRecord] = useState<any[]>([])
   useEffect(()=>{
-    fetch("http://localhost:3000/Data.json")
+    fetch("https://run.mocky.io/v3/d7ba70d4-63fb-441b-b62f-46f0cab5820c")
     .then(res => res.json())
     .then(data => {
       setColumn(Object.keys(data.users[0]))
@@ -153,13 +153,13 @@ export function User (props: post) {
             {
               record.map((record, i) => (
                 <tr key={i}>
-                  <td >{record.id}</td>
-                  <td>{record.organization}</td>
-                  <td >{record.username}</td>
-                  <td>{record.email}</td>
-                  <td>{record.phone}</td>
-                  <td>{record.date}</td>
-                  <td>{record.status}</td>
+                  <div className='id'><td >{record.id}</td></div>
+                  <div className='organization'><td>{record.organization}</td></div>
+                  <div className='username'><td >{record.username}</td></div>
+                  <div className='email'><td>{record.email}</td></div>
+                 <div className='phone'> <td>{record.phone}</td></div>
+                  <div className='date'><td>{record.date}</td></div>
+                  <div className='status'><td>{record.status}</td></div>
                 </tr>
                 ))
             }

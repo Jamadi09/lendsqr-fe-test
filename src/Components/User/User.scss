@@ -255,9 +255,26 @@
     align-items: center;
 }
 
+.table{
+    display: flex;
+    width: 128%;
+    height: 680%;
+    position: absolute;
+    top: 0;
+    background-color: rgb(209, 203, 203);
+    padding: 25px;
+    padding-right: 10px;
+    left: 1rem;
+   
+}
+
 tr th{
-    text-align: center;
-    padding-left: 35px;
+   text-align: center;
+   padding: 58px;
+   margin-right: 30px;
+   margin-bottom: 65px;
+   position: relative;
+   bottom: 5rem;
 }
 
 tr td{
@@ -266,4 +283,51 @@ tr td{
     top: 1rem;
 }
 
+.id{
+  position: absolute;
+  right: 41.5rem;
+  font-size: 10px;
+  }
+  .organization{
+    position: absolute;
+    right: 30rem;
+    font-size: 10px;
+  }
+
+  .username{
+    position: absolute;
+    right: 17rem;
+    font-size: 10px;
+  }
+
+  .email{
+    position: relative;
+    left: 0.1rem;
+    font-size: 10px;
+    top: 0.2rem;
+  }
+
+  .phone{
+    position: relative;
+    left: 10rem;
+    font-size: 10px;
+    bottom: 1rem;
+    
+
+  }
+  .date{
+    position: relative;
+    left: 18rem;
+    font-size: 10px;
+    bottom: 2rem;
+  }
+
+  .status{
+   position: absolute;
+   left: 30rem;
+    top: 4rem;
+   font-size: 10px;
+   max-width: 15%;
+   
+  }
     
